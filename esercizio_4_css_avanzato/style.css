@@ -1,0 +1,128 @@
+h1 {
+    color: rgb(255, 89, 0);
+    font-family:"Oswald",sans-serif;
+}
+
+h2 {
+    color: rgb(152, 53, 0);
+    font-family:"Oswald",sans-serif;
+}
+
+
+h3 {
+    color: rgb(93, 33, 0);
+    font-family:"Oswald",sans-serif;
+}
+
+p {
+    color: rgb(76, 76, 76);
+    font-family:"DM Sans",sans-serif ;
+}
+.background {
+    background-color: rgba(225, 134, 82, 0.5);
+}
+.background:hover {
+    background-color: rgba(251, 92, 0, 0.8);
+}
+
+
+nav img {
+    width: 100px;
+    height: 100px;
+}
+
+section img {
+    max-width: 50%;
+    max-height: 500px;
+}
+
+article {
+    width: 50%;
+}
+
+body {
+    background-image:linear-gradient( rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+    url(./foto/trullo.jpg);
+}
+
+header {
+    margin-top: 150px;
+}
+
+
+nav {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px solid black;
+    width: 100vw;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    list-style: none;
+    background-color: rgba(251, 92, 0, 0.3);
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid red;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+section img {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+
+footer {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid orange;
+    width: 100%;
+    background-color: rgba(251, 92, 0, 0.3);
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    background-color: orangered;
+}
